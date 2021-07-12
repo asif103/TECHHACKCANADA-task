@@ -1,0 +1,13 @@
+.menuItem {
+  padding: 10px 20px;
+  color: brown;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.menuItem:hover {
+  color: darkolivegreen;
+}
+.menuItemSelected {
+  background-color: darkolivegreen;
+  color: #fff;
+}
