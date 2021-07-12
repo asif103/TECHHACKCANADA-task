@@ -15,7 +15,7 @@ function Serieses() {
             <h2 className="text-center bg-light p-5 shadow my-5">All Series</h2>
             <Row className="g-4" xs={1} md={3} lg={4}>
                 {
-                    serieses.slice(0,20).map(series=> <Series series={series}></Series>)
+                    serieses.slice(0,20).map((series, index)=> <Series series={series} key={index}></Series>)
                 }
             </Row>
         </div>

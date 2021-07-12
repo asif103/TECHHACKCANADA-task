@@ -15,7 +15,7 @@ function Movies() {
             <h2 className="text-center bg-light p-5 shadow my-5">All Movies</h2>
             <Row className="g-4" xs={1} md={3} lg={4}>
                 {
-                movies.slice(0,20).map(movie => <Movie movie={movie}></Movie>)
+                movies.slice(0,20).map((movie, index) => <Movie movie={movie} key={index}></Movie>)
                 }
             </Row>
         </div>
