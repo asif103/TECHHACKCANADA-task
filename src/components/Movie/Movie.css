@@ -6,3 +6,11 @@
 .itemCard:hover .itemCardImg {
   transform: scale(1.1);
 }
+.movieButton {
+  background: brown;
+  border: brown;
+}
+.movieButton:hover {
+  background: #031e2f;
+  border: #031e2f;
+}

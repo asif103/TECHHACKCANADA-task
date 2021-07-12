@@ -6,3 +6,12 @@
 .itemCard:hover .itemCardImg {
   transform: scale(1.1);
 }
+.seriesButton {
+  background: darkolivegreen;
+  border: darkolivegreen;
+}
+
+.seriesButton:hover {
+  background: #031e2f;
+  border: #031e2f;
+}

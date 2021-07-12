@@ -15,9 +15,9 @@ function Homepage() {
                 <Row>
                     <Col md={6} lg={6} sm={12}>
                         <Link to="/movies">
-                            <div class="custom_card">
-                                <div class="card_image"> <img src={moviePoster} /> </div>
-                                <div class="card_title title-white">
+                            <div className="custom_card">
+                                <div className="card_image"> <img src={moviePoster} alt="Moviesposter"/> </div>
+                                <div className="card_title title-white">
                                     <p>All Movies</p>
                                 </div>
                             </div>
@@ -25,9 +25,9 @@ function Homepage() {
                     </Col>
                     <Col md={6} lg={6} sm={12}>
                         <Link to="/series">
-                            <div class="custom_card">
-                                <div class="card_image"> <img src={seriesPoster} /> </div>
-                                <div class="card_title title-white">
+                            <div className="custom_card">
+                                <div className="card_image"> <img src={seriesPoster} alt="Seriesposter"/> </div>
+                                <div className="card_title title-white">
                                     <p>All Series</p>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ function Movie({movie}) {
                 <Card.Img variant="top" src={movie.images.["Poster Art"].url} className="itemCardImg"/>
                 <Card.Body>
                     <Card.Title>{movie.title}</Card.Title>
-                    <Button variant="primary">Watch Now</Button>
+                    <Button className="movieButton">Watch Now</Button>
                 </Card.Body>
             </Card>
         </div>

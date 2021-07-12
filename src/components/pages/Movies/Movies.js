@@ -5,7 +5,7 @@ import Movie from '../../Movie/Movie';
 import './Movies.css'
 
 function Movies() {
-    const [movies, setMovies] = useContext(MovieContext);
+    const [movies] = useContext(MovieContext);
     movies.sort(
         (a, b) =>  a["title"].localeCompare(b["title"])
       );

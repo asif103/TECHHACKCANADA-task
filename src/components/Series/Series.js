@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
+import './Series.css'
 
 function Series({series}) {
     return (
@@ -8,7 +9,7 @@ function Series({series}) {
                 <Card.Img variant="top" src={series.images.["Poster Art"].url} className="itemCardImg"/>
                 <Card.Body>
                     <Card.Title>{series.title}</Card.Title>
-                    <Button variant="primary">Watch Now</Button>
+                    <Button className="seriesButton">Watch Now</Button>
                 </Card.Body>
             </Card>
         </div>

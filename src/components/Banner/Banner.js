@@ -34,7 +34,7 @@ const Banner = () => {
                         </div>
                         <div className="col-md-7 col-sm-12 col-12 col-lg-7">
                             <img
-                                className="d-block w-100"
+                                className="w-100"
                                 src={banner.image}
                                 alt={ banner.title}
                             />

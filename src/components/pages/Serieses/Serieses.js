@@ -5,7 +5,7 @@ import Series from '../../Series/Series';
 import './Serieses.css'
 
 function Serieses() {
-    const [serieses, setSerieses] = useContext(SeriesContext);
+    const [serieses] = useContext(SeriesContext);
     serieses.sort(
         (a, b) =>  a["title"].localeCompare(b["title"])
       );
