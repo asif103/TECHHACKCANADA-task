@@ -1,0 +1,8 @@
+.itemCardImg {
+  height: 375px;
+  width: Auto;
+  transition: all 0.3s ease-in-out;
+}
+.itemCard:hover .itemCardImg {
+  transform: scale(1.1);
+}
