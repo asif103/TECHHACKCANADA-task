@@ -1,0 +1,16 @@
+.itemCardImg {
+  height: 375px;
+  width: Auto;
+  transition: all 0.3s ease-in-out;
+}
+.itemCard:hover .itemCardImg {
+  transform: scale(1.1);
+}
+.movieButton {
+  background: brown;
+  border: brown;
+}
+.movieButton:hover {
+  background: #031e2f;
+  border: #031e2f;
+}

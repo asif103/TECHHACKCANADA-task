@@ -1,0 +1,14 @@
+.bannerTitle {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.bannerSubTitle {
+  color: skyblue;
+  font-size: 1.5rem;
+}
+.textBg {
+  background-image: url("../../assets/bgBanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
